@@ -1,0 +1,30 @@
+# Python 가상환경
+.venv/
+env/
+venv/
+
+# Python 캐시 및 빌드
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# PyTorch 모델 파일
+*.pth
+
+# 업로드된 이미지들
+static/uploads/
+
+# VSCode 설정
+.vscode/
+
+# 실행 중 생성된 임시 파일
+*.log
+*.tmp
+
+# macOS, Windows 시스템 파일
+.DS_Store
+Thumbs.db
+
+model.pth
+results.db
